@@ -25,7 +25,8 @@ The electronic componenents used here are:
 * 3000mAH 11.1v Lithium-Polymer Battery
 
 ## Wiring diagram
-<img src="https://user-images.githubusercontent.com/83417790/163807519-fdd279b6-6b08-4776-bd8e-8b7152aee!b46.png">
+<img src="https://user-images.githubusercontent.com/83417790/163813286-be751741-ab2a-4865-b7bb-ef16bae6cbd6.png">
+
 
 The Pins 8 and 10 on the Jetson are wired to the pins 16 and 17 on the ESP32 for serial commnication.
 
@@ -36,7 +37,7 @@ The programming of the ESP32 is done is a way that makes the Jetson the "master"
 ## Retraining SSD mobilenet-V2
 If you want to retrain the model yourself, the dataset is provided. adding more pictures to make the dataset larger is a good idea to make your model more robust! Feel free to do!
 
-The SSD mobilenet-V2 was retrained using transfer learning that lessens the time and amount of data needed for training. A familiarity with the [jetson-inference](https://github.com/dusty-nv/jetson-inference) repo is recommended before as a prerequisite to this project.  
+The SSD mobilenet-V2 was retrained using transfer learning that lessens the time and amount of data needed for training. A familiarity with the [jetson-inference](https://github.com/dusty-nv/jetson-inference) repo is recommended as a prerequisite to this project.  
 
 The model provided here is traned for 100 epochs on the Jetson Nano 2GB. The time take to train the model was roughly 30 hours.
 
