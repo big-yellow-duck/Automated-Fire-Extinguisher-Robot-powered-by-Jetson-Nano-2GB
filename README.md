@@ -1,7 +1,7 @@
 # Automated-Fire-Extinguisher-Robot-powered-by-Jetson-Nano-2GB
 
 This project uses a Deep learning on the Jetson Nano 2GB paired with an ESP32 used for motor controls to extinguish small fires in a small area.
-The [jetson-inference](https://github.com/dusty-nv/jetson-inference) is a requirement to run this project. 
+Familirity to the [jetson-inference](https://github.com/dusty-nv/jetson-inference) repo is a requirement to run this project. 
 
 [Video Demo of this project](https://www.youtube.com/watch?v=Xg-PzxqsTTw&t=4s)
 
@@ -38,7 +38,7 @@ The programming of the ESP32 is done is a way that makes the Jetson the "master"
 ## Retraining SSD mobilenet-V2
 If you want to retrain the model yourself, the dataset is provided. adding more pictures to make the dataset larger is a good idea to make your model more robust! Feel free to do!
 
-The SSD mobilenet-V2 was retrained using transfer learning that lessens the time and amount of data needed for training. A familiarity with the [jetson-inference](https://github.com/dusty-nv/jetson-inference) repo is recommended as a prerequisite to this project.  
+The SSD mobilenet-V2 was retrained using transfer learning with pytorch that lessens the time and amount of data needed for training. A detailed guide to [Retraining SSD mobilenet-V2](https://github.com/dusty-nv/jetson-inference/blob/master/docs/pytorch-ssd.md) is provided by the jetson-inference Github repo.
 
 The model provided here is traned for 100 epochs on the Jetson Nano 2GB. The time take to train the model was roughly 30 hours.
 
