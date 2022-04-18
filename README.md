@@ -1,6 +1,7 @@
 # Automated-Fire-Extinguisher-Robot-powered-by-Jetson-Nano-2GB
 
 This project uses a Deep learning on the Jetson Nano 2GB paired with an ESP32 used for motor controls to extinguish small fires in a small area.
+The [jetson-inference](https://github.com/dusty-nv/jetson-inference) is a requirement to run this project. 
 
 [Video Demo of this project](https://www.youtube.com/watch?v=Xg-PzxqsTTw&t=4s)
 
