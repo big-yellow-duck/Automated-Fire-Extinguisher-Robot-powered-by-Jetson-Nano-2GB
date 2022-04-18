@@ -6,8 +6,11 @@ This project uses a Deep learning on the Jetson Nano 2GB paired with an ESP32 us
 
 <img src= "https://user-images.githubusercontent.com/83417790/163781241-674ca08f-cb6b-4246-828a-d68f7cf4171e.jpg" width="800px" height="800px">
 
+
 The link to the assembly of this project can found [here](https://drive.google.com/drive/folders/1Qaj5e5Lfy3mRaZVl2hqvJ6ceHgBbuAHm?usp=sharing)
 
+The electronic components in the project are not included in the assembly. They can be placed anywhere since there is much free space behind
+<img src="https://user-images.githubusercontent.com/83417790/163812943-fc0ba3ef-ac4d-4765-873b-42c64cd0cd10.png" width="800px" height="850px">
 ## Wiring the Project
 
 The electronic componenents used here are:
@@ -22,7 +25,7 @@ The electronic componenents used here are:
 * 3000mAH 11.1v Lithium-Polymer Battery
 
 ## Wiring diagram
-<img src="https://user-images.githubusercontent.com/83417790/163807519-fdd279b6-6b08-4776-bd8e-8b7152aeeb46.png">
+<img src="https://user-images.githubusercontent.com/83417790/163807519-fdd279b6-6b08-4776-bd8e-8b7152aee!b46.png">
 
 The Pins 8 and 10 on the Jetson are wired to the pins 16 and 17 on the ESP32 for serial commnication.
 
