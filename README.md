@@ -45,4 +45,4 @@ The model provided here is traned for 100 epochs on the Jetson Nano 2GB. The tim
 
 There is a bug I was not able to fix where the pyserial library will cause errors and crash the program when it is run for the first time after booting up the Jetson Nano 2GB. 
 
-Be aware of the battery voltage while operating the robot. Lipo Batteries are not meant to be drained below their nominal voltage. They will die prematurely ( I've learnt this the hard way). Using the XL4015 DC-DC Buck Converter with an LED display to display the voltage of the battery is a good practice to make sure that the voltage does not fall to low. 
+**Be aware of the battery voltage** while operating the robot. Lipo Batteries are not meant to be drained below their nominal voltage. They will die prematurely ( I've learnt this the hard way). Using the **XL4015 DC-DC Buck Converter** with an LED display to display the voltage of the battery is a good practice to make sure that the voltage does not fall to low. 
